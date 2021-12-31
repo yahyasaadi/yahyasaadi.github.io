@@ -20,6 +20,14 @@ li a:hover {
     padding: 30px 30px 30px 30px;
 }
 
+/* Intro part */
+
+.intro-section {
+    width: 100%;
+    min-height: 85vh;
+    padding: 80px 100px 50px;
+}
+
 /* Skills section styling */
 .skills-section {
     width: 100%;
