@@ -20,10 +20,25 @@ li a:hover {
     padding: 30px 30px 30px 30px;
 }
 
+/* Skills section styling */
+.skills-section {
+    width: 100%;
+    min-height: 85vh;
+    padding: 80px 100px 50px;
+}
+
+.skills-heading {
+    font-size: 50px;
+    background: #252525;
+    text-transform: capitalize;
+    color: #5a4e4e;
+}
+
+/* Project section styling */
 .project-section {
 	width: 100%;
 	min-height: 100vh;
-	padding: 150px 100px 100px;
+	padding: 80px 100px 100px;
 }
 
 .project-heading {
