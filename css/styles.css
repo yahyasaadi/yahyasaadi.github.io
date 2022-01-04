@@ -48,7 +48,9 @@ li a:hover {
 .project-section {
 	width: 100%;
 	min-height: 100vh;
-	padding: 30px 100px 100px;
+	/* padding: 30px 100px 100px; */
+    padding: 0rem 3rem;
+    
 }
 
 .project-heading {
@@ -131,4 +133,15 @@ li a:hover {
 
 .project-card:hover .project-content{
     opacity: 1;
+}
+
+.contact {
+    background-color: rgb(39, 35, 35);
+}
+
+@media screen and (max-width: 768px) {
+    .project-container{
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
 }
