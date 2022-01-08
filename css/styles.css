@@ -136,7 +136,8 @@ li a:hover {
 }
 
 .contact {
-    background-color: rgb(39, 35, 35);
+    height: 25vh;
+    background-color: rgb(99, 91, 91);
 }
 
 @media screen and (max-width: 768px) {
