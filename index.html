@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0ad7f1d030.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Portfolio</title>
+    <title>Yahya Saadi</title>
 </head>
 <body>
-    <section id="bar">
-        <div class="container-bar">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#new-project-part">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a href="#home" class="nav-link">Intro</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#skills" class="nav-link">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#new-project-part" class="nav-link">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#contact" class="nav-link">Contacts</a>
+                      </li>
+                </ul>
+            </div>
         </div>
-    </section>
+    </nav>
     
     <section id="home" class="intro-section">
         <div class="container">
@@ -50,85 +60,180 @@
             </div>
         </div>
     </section>
-    <section class="skills-section">
-        <div id="skills" class="container">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <p>HTML5</p>
-                    <img src="images/icons8-html-5-240.png" alt="">
+    <!-- SKILLS SECTION -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-python"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">PYTHON</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-python"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">PYTHON</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-python"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">PYTHON</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h3>SKILLSET</h3>
+        <div class="known-skills">
+            <div class="knows">
+                <i class="fab fa-python"></i>
+                <h6>PYTHON</h6>
+            </div>
+            <div class="knows">
+                <i class="fab fa-js-square"></i>
+                <h6>JAVASCRIPT</h6>
+            </div>
+            <div class="knows">
+                <i class="fab fa-css3-alt"></i>
+                <h6>CSS 3</h6>
+            </div>
+            <div class="knows">
+                <i class="fas fa-bookmark"></i>
+                <h6>BOOTSTRAP 4</h6>
+            </div>
+            <div class="knows-tech">
+                <i class="fab fa-html5"></i>
+                <h6>HTML 5</h6>
+            </div>
+            
+            <div class="knows-tech">
+                <i class="fab fa-github"></i>
+                <h6> GITHUB</h6>
+            </div>
+            <div class="knows-tech">
+                <i><img src='images/jquery.png'></i>
+                <h6>JQUERY</h6>
+            </div>
+            <div class="knows-tech">
+                <i class="fab fa-git-square"></i>
+                <h6>GIT</h6>
+            </div> 
+        </div>
+    </div>
+    <!-- Another project section -->
+    <h1 class="project-heading">some of my projects</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
 
-                <div class="col-md-4">
-                    <p>CSS</p>
-                    <img src="images/icons8-css3-240.png" alt="">
-                </div>
-                <div class="col-md-4">
-                    <p>JavaScript</p>
-                    <img src="images/icons8-javascript-logo-250.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- project section -->
-    <section class="project-section" id="new-project-part">
-        <h1 class="project-heading">some of my projects</h1>
-        <div class="project-container grid-row">
-            <div class="project-card">
-                <img src="images/nubelson-fernandes-duFRHN8-TO4-unsplash.jpg" class="project-img" alt="">
-                <div class="project-content">
-                    <h1 class="project-title">project 01</h1>
-                    <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
-                    </p>
-                    <div class="project-btn-grp">
-                        <button class="project-btn github"><a href="http://" target="_blank">github repo</a> </button>
-                        <button class="project-btn live"><a href="http://" target="_blank">see live</a></button>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <!-- <a href="#" class="btn btn-outline-secondary btn-sm">
+                            <i class="far fa-heart"></i></a> -->
                     </div>
                 </div>
             </div>
-            <!-- // +3 more cards -->
-            <div class="project-card">
-                <img src="images/nubelson-fernandes-duFRHN8-TO4-unsplash.jpg" class="project-img" alt="">
-                <div class="project-content">
-                    <h1 class="project-title">project 01</h1>
-                    <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
-                    </p>
-                    <div class="project-btn-grp">
-                        <button class="project-btn github"><a href="http://" target="_blank">github repo</a> </button>
-                        <button class="project-btn live"><a href="http://" target="_blank">see live</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="images/nubelson-fernandes-duFRHN8-TO4-unsplash.jpg" class="project-img" alt="">
-                <div class="project-content">
-                    <h1 class="project-title">project 01</h1>
-                    <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
-                    </p>
-                    <div class="project-btn-grp">
-                        <button class="project-btn github"><a href="http://" target="_blank">github repo</a> </button>
-                        <button class="project-btn live"><a href="http://" target="_blank">see live</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="images/nubelson-fernandes-duFRHN8-TO4-unsplash.jpg" class="project-img" alt="">
-                <div class="project-content">
-                    <h1 class="project-title">project 01</h1>
-                    <p class="project-info">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit vitae delectus cumque repudiandae aliquam optio accusamus natus nobis! Nam, sunt?
-                    </p>
-                    <div class="project-btn-grp">
-                        <button class="project-btn github"><a href="http://" target="_blank">github repo</a> </button>
-                        <button class="project-btn live"><a href="http://" target="_blank">see live</a></button>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <!-- CONTACT SECTION -->
     <section class="contact mt-5" id="contact">
         <div class="row text-center">
             <h3 class="fw-bold lead mb-3">Contacts</h3>
@@ -152,7 +257,9 @@
             </div>
         </div>
     </section>
+    <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

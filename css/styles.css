@@ -44,6 +44,9 @@ li a:hover {
     color: #5a4e4e;
 }
 
+
+
+
 /* Project section styling */
 .project-section {
 	width: 100%;
@@ -140,9 +143,9 @@ li a:hover {
     background-color: rgb(99, 91, 91);
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .project-container{
         grid-template-columns: 1fr;
         grid-gap: 50px;
     }
-}
+} */
