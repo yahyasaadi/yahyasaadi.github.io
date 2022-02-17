@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4">
         <div class="container">
             <a href="#" class="navbar-brand">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                       <li class="nav-item">
-                          <a href="#home" class="nav-link">Intro</a>
+                          <a href="#intro" class="nav-link">About Me</a>
                       </li>
                       <li class="nav-item">
                           <a href="#skills" class="nav-link">Skills</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#new-project-part" class="nav-link">Projects</a>
+                          <a href="#projects" class="nav-link">Projects</a>
                       </li>
                       <li class="nav-item">
                           <a href="#contact" class="nav-link">Contacts</a>
@@ -38,30 +38,30 @@
         </div>
     </nav>
     
-    <section id="home" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>Hello,</h1>
-                    <p>I am Yahya Saadi. I am currently leaning how to code at Moringa School.
-                    <br> I've a Level 5 Diploma in Computing and during my study is when I took up interest in learning
-                    how to code.
-                    <br> My hobbies are:
-                    <ul>
-                        <li>Watching Documenteries about Engineering.</li>
-                        <li>Reading book.</li>
-                        <li>Occationally watching football. A Man United fan here.</li>
-                    </ul>
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid" src="images/kelly-sikkema-ml1IgjV8OvY-unsplash.jpg" alt="" >
-                </div>
+    
+    <div class="container-fluid mb-4" id="intro">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Hello,</h1>
+                <p>I am Yahya Saadi. I am currently leaning how to code at Moringa School.
+                <br> I've a Level 5 Diploma in Computing and during my study is when I took up interest in learning
+                how to code.
+                <br> My hobbies are:
+                <ul>
+                    <li>Watching Documenteries about Engineering.</li>
+                    <li>Reading book.</li>
+                    <li>Occationally watching football. A Man United fan here.</li>
+                </ul>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="images/kelly-sikkema-ml1IgjV8OvY-unsplash.jpg" alt="" >
             </div>
         </div>
-    </section>
+    </div>
     <!-- SKILLS SECTION -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="skills">
+        <h3 class="text-center">SKILLSET</h3>
         <div class="row">
             <div class="col-lg-4 mb-4">
                 <div class="card">
@@ -80,7 +80,7 @@
                 <div class="card">
                     <i class="fab fa-python"></i>
                     <div class="card-body">
-                        <h5 class="card-title">PYTHON</h5>
+                        <h5 class="card-title">FLASK</h5>
                         <p class="card-text">
                             Some quick example text to build on 
                             the card title and make up the bulk 
@@ -91,9 +91,91 @@
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <i class="fab fa-python"></i>
+                    <i class="fab fa-html5"></i>
                     <div class="card-body">
-                        <h5 class="card-title">PYTHON</h5>
+                        <h5 class="card-title">HTML5</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-git-square"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">GIT</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-github"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">GITHUB</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-js-square"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">JAVASCRIPT</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-css3-alt"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS3</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fas fa-bookmark"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">BOOTSTRAP</h5>
+                        <p class="card-text">
+                            Some quick example text to build on 
+                            the card title and make up the bulk 
+                            of the card's content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <i class="fab fa-js-square"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">JAVASCRIPT</h5>
                         <p class="card-text">
                             Some quick example text to build on 
                             the card title and make up the bulk 
@@ -143,8 +225,9 @@
         </div>
     </div>
     <!-- Another project section -->
-    <h1 class="project-heading">some of my projects</h1>
-    <div class="container-fluid">
+    
+    <div class="container-fluid" id="projects">
+        <h1 class="project-heading text-center">Some of my projects</h1>
         <div class="row">
             <div class="col-lg-6 mb-4">
                 <div class="card">
@@ -234,7 +317,7 @@
     </div>
     
     <!-- CONTACT SECTION -->
-    <section class="contact mt-5" id="contact">
+    <!-- <section class="contact mt-5" id="contact">
         <div class="row text-center">
             <h3 class="fw-bold lead mb-3">Contacts</h3>
             <div class="col-md-4">
@@ -256,7 +339,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <!-- Bootstrap JavaScript -->
