@@ -1,0 +1,105 @@
+.cv {
+    color: white;
+    text-decoration: none;
+}
+
+.gh {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.intro{
+    margin-top: 60px;
+}
+
+#contacts {
+    padding-top: 20px; 
+}
+
+/* #contacts .contacts-cont {
+    background: #FFF8AA;
+    display: grid;
+    grid-template-columns: 1fr; 
+} */
+#contacts .send-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    border-bottom: 1px black solid; 
+}
+
+#contacts .send-message > * {
+    margin: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none; 
+}
+
+#contacts .send-message input {
+    padding: 7px 10px;
+    width: 90%; 
+}
+#contacts .send-message textarea {
+    width: 90%; 
+}
+#contacts .send-message a {
+    background: blue;
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 8px 5px; 
+}
+
+/* #contacts .contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-left: 50px;
+    align-items: center; 
+} */
+
+#contacts .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#contacts .contact-wrapper .contact {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px; 
+}
+#contacts .contact-wrapper .contact i {
+    color: white;
+    background: gray;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 35px; 
+}
+
+.dj{
+    width: 20px;
+    height: 20px;
+}
+
+.django-div{
+    display: flex;
+    gap: 10px;
+}
+
+/* .skill-card{
+    display: flex;
+    gap: 20px;
+} */
+
+@media screen and (max-width: 480px) {
+    #contacts .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+}

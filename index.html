@@ -12,9 +12,16 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Portfolio</a>
+            <a href="#" class="navbar-brand">Yahya</a>
+            <a href="/docs/Yahya Saadi CV.docx" class="cv" download>
+                Resume
+            </a>
+            <a href="https://github.com/yahyasaadi" class="gh" target="_blank">
+                <i class="fab fa-github"></i>
+                <!-- My GitHub -->
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,25 +38,25 @@
                           <a href="#projects" class="nav-link">Projects</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#contact" class="nav-link">Contacts</a>
+                          <a href="#contacts" class="nav-link">Contacts</a>
                       </li>
                 </ul>
             </div>
         </div>
     </nav>
     
-    
-    <div class="container-fluid mb-4" id="intro">
+    <div class="container-fluid intro mb-4" id="intro">
         <div class="row">
             <div class="col-lg-6">
                 <h1>Hello,</h1>
-                <p>I am Yahya Saadi. I am currently leaning how to code at Moringa School.
-                <br> I've a Level 5 Diploma in Computing and during my study is when I took up interest in learning
-                how to code.
+                <p>I am Yahya Saadi. Welcome to my portfolio website to showcase my skills.
+                <br> I am ambitious and innovative web developer with more interest in the back-end.
+                <br>My love for coding is second to none. I write code at every opportunity I get.
+                <br>I am also big on problem solving and making things easier for clients and my team mates. 
                 <br> My hobbies are:
                 <ul>
                     <li>Watching Documenteries about Engineering.</li>
-                    <li>Reading book.</li>
+                    <li>Reading books.</li>
                     <li>Occationally watching football. A Man United fan here.</li>
                 </ul>
                 </p>
@@ -61,193 +68,68 @@
     </div>
     <!-- SKILLS SECTION -->
     <div class="container-fluid" id="skills">
-        <h3 class="text-center">SKILLSET</h3>
+        <h2 class="text-center">SKILLSET</h2>
         <div class="row">
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <i class="fab fa-python"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">PYTHON</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
+                    <div class="card-body skill-card">
+                        <div class="django-div">
+                            <img class="dj" src="images/django.png" alt="">
+                            <h6>DJANGO</h6>
+                        </div>
+                        <div class="django-div">
+                            <img class="dj" src="images/flask.png" alt="">
+                            <h6>FLASK</h6>
+                        </div>
+                        <div class="django-div">
+                            <img class="dj" src="images/postgres.png" alt="">
+                            <h6>POSTGRES</h6>
+                        </div>
+                        <h6 class="card-title"> <i class="fab fa-python"></i> PYTHON</h6>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <i class="fab fa-python"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">FLASK</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
+                    <div class="card-body skill-card">
+                        <h6 class="card-title"> <i class="fab fa-html5"></i> HTML5</h6>
+                        <h6 class="card-title"> <i class="fab fa-css3-alt"></i> CSS3</h6>
+                        <h6 class="card-title"> <i class="fas fa-bookmark"></i> BOOTSTRAP</h6>
+                        <h6 class="card-title"> <i class="fab fa-js-square"></i> JAVASCRIPT</h6>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
-                    <i class="fab fa-html5"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">HTML5</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
+                    <div class="card-body skill-card">
+                        <h6 class="card-title"> <i class="fab fa-git-square"></i> GIT</h6>
+                        <h6 class="card-title"> <i class="fab fa-github"></i> GITHUB</h6>
+                        <h6 class="card-title"> <i class="fab fa-python"></i> HEROKU</h6>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <i class="fab fa-git-square"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">GIT</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <i class="fab fa-github"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">GITHUB</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <i class="fab fa-js-square"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">JAVASCRIPT</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <i class="fab fa-css3-alt"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">CSS3</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <i class="fas fa-bookmark"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">BOOTSTRAP</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-                <div class="card">
-                    <i class="fab fa-js-square"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">JAVASCRIPT</h5>
-                        <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="container-fluid">
-        <h3>SKILLSET</h3>
-        <div class="known-skills">
-            <div class="knows">
-                <i class="fab fa-python"></i>
-                <h6>PYTHON</h6>
-            </div>
-            <div class="knows">
-                <i class="fab fa-js-square"></i>
-                <h6>JAVASCRIPT</h6>
-            </div>
-            <div class="knows">
-                <i class="fab fa-css3-alt"></i>
-                <h6>CSS 3</h6>
-            </div>
-            <div class="knows">
-                <i class="fas fa-bookmark"></i>
-                <h6>BOOTSTRAP 4</h6>
-            </div>
-            <div class="knows-tech">
-                <i class="fab fa-html5"></i>
-                <h6>HTML 5</h6>
-            </div>
-            
-            <div class="knows-tech">
-                <i class="fab fa-github"></i>
-                <h6> GITHUB</h6>
-            </div>
-            <div class="knows-tech">
-                <i><img src='images/jquery.png'></i>
-                <h6>JQUERY</h6>
-            </div>
-            <div class="knows-tech">
-                <i class="fab fa-git-square"></i>
-                <h6>GIT</h6>
-            </div> 
-        </div>
-    </div>
-    <!-- Another project section -->
-    
+    <!-- PROJECTS -->
     <div class="container-fluid" id="projects">
-        <h1 class="project-heading text-center">Some of my projects</h1>
+        <h2 class="project-heading text-center">Some of my projects</h2>
         <div class="row">
             <div class="col-lg-6 mb-4">
                 <div class="card">
                     <img class="card-img-top" src="" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Neighborhood Watch</h5>
                         <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
+                            This is an app where users can register and add their neighborhood
+                            information and post events happening in their respective hoods.
                         </p>
 
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://github.com/yahyasaadi/jirani" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Code
                         </a>
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://jiiraama.herokuapp.com/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Live Site
                         </a>
-                        <!-- <a href="#" class="btn btn-outline-secondary btn-sm">
-                            <i class="far fa-heart"></i></a> -->
+                       
                     </div>
                 </div>
             </div>
@@ -255,18 +137,16 @@
                 <div class="card">
                     <img class="card-img-top" src="" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Instagram Clone</h5>
                         <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
+                            Here, I clone the popular social media platform Instagram.
                         </p>
 
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://github.com/yahyasaadi/ig_clone" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Code
                         </a>
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://zistagram.herokuapp.com/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Live Site
                         </a>
                     </div>
                 </div>
@@ -277,18 +157,16 @@
                 <div class="card">
                     <img class="card-img-top" src="" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Blog Made with Flask</h5>
                         <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
+                            This is a blog application where users can register and start blogging right away.
                         </p>
 
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://github.com/yahyasaadi/blog" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Code
                         </a>
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://aventurablogs.herokuapp.com/" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Live Site
                         </a>
                     </div>
                 </div>
@@ -297,19 +175,18 @@
                 <div class="card">
                     <img class="card-img-top" src="" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Password Generator</h5>
                         <p class="card-text">
-                            Some quick example text to build on 
-                            the card title and make up the bulk 
-                            of the card's content.
+                            Application made with plain Python, no framework. It helps users generate password for their
+                            socail media platforms.
                         </p>
 
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
+                        <a href="https://github.com/yahyasaadi/passwordLocker" target="_blank" class="btn btn-outline-primary btn-sm">
+                            Code
                         </a>
-                        <a href="#" class="btn btn-outline-primary btn-sm">
-                            Card link
-                        </a>
+                        <!-- <a href="#" class="btn btn-outline-primary btn-sm">
+                            Terminal Based
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -317,29 +194,37 @@
     </div>
     
     <!-- CONTACT SECTION -->
-    <!-- <section class="contact mt-5" id="contact">
-        <div class="row text-center">
-            <h3 class="fw-bold lead mb-3">Contacts</h3>
+    <div class="container-fluid" id="contacts">
+        <h2 class="text-center">CONTACTS</h2>
+        <div class="row">
             <div class="col-md-4">
-                <h5>Twitter</h5>
-                <a href="https://twitter.com/yahyasnoor" target="_blank">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </a>
+                <section class="contact-wrapper d-flex">
+                    <div class='contact'>
+                        <a href='https://www.linkedin.com/in/yahya-saadi-noor-1b9966216/' target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <p>LinkedIn</p>
+                    </div>
+                    <div class='contact'>
+                        <a href='https://github.com/yahyasaadi' target="_blank"><i class="fab fa-github"></i></a>
+                        <p>github.com/yahyasaadi</p>
+                    </div>
+                    <div class='contact'>
+                        <a href = "mailto:yahyasnoor@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                        <p>yahyasnoor<br>@gmail.com</p>
+    
+                    </div> 
+                </section>
             </div>
-            <div class="col-md-4">
-                <h5>Gmail: yahyasnoor@gmail.com </h5>
-                <a href="https://gmail.com" target="_blank">
-                    <ion-icon name="mail-outline"></ion-icon>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <h5>LinkedIn</h5>
-                <a href="https://www.linkedin.com/in/yahya-noor-1b9966216/" target="_blank">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
+            <div class="col-md-8">
+                <form class="send-message">
+                    <h4>LEAVE A MESSAGE</h4>
+                    <input type="email" placeholder="email" required >
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message Here"></textarea>
+                    <a href = "mailto:yahyasnoor@gmail.com">send message</a>
+                </form>
             </div>
         </div>
-    </section> -->
+    </div>
+    
     <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <!-- Bootstrap JavaScript -->
